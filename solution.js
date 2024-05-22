@@ -16,7 +16,7 @@ function nextNumber(num){
 //example
 console.log(nextNumber(1))
 console.log(nextNumber(0))
-console.log(nextNumber(-))
+console.log(nextNumber(5))
 
 // 3.Find perimeter of a rectangle
 
@@ -57,7 +57,7 @@ function Basketballpoints(twopointers ,threepointers){
 }
 
 //example
-console.log(pointsResult(7,5)); //output:29
+console.log(Basketballpoints(7,5)); //output:29
 
 //7.Less than 100
 function isSumMoreThan100(val1,val2){
@@ -85,7 +85,7 @@ else if (seconds ===1){
 }
 return `${seconds} second`;
 //test case
-console.log(ConvertToseconds(5));// output: 300 seconds
+console.log(ConvertToseconds(1));// output: 300 seconds
 
 //9.Greater among the three
 function greater(num1 ,num2, num3){
@@ -105,8 +105,8 @@ else if (num2 > num1 && num2 > num3){
 console.log(greater(2, 35, 9)); // Output: 35
 
 //10.Less among the three
-function (num1, num2, num3){
-    const smallest = math.min(num1,num2, num3);
+function least(num1, num2, num3){
+    const smallest = Math.min(num1,num2, num3);
     return smallest;
 }
 //example
